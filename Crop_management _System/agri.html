@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smart Crop management system</title>
+</head>
+<style>
+    *{
+         margin: 0;
+         padding: 0;
+         box-sizing: border-box;
+    }
+    .box
+    {
+        background-image:url("agriimg.jpg");
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        min-height: 100vh;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        align-items: center;
+        
+        
+    }
+    h1{ 
+        margin-top: 15px;
+        text-align: center;
+        color:black;
+        font-size: 45px;
+    }
+    .body{
+        display: grid;
+        margin-top: 200px;
+        grid-template-columns:repeat(2 ,1fr);
+        grid-template-rows: repeat(3 , 1fr);
+        row-gap: 50px;
+        column-gap: 150px;
+    }
+    .body>a
+    {
+        background-color: rgb(164, 74, 29);
+        color: black;
+        display: flex;
+        max-height: 300px;
+        max-width: 170px;
+        border-radius: 20%;
+        padding: 20px;
+        font-size:25px;
+        font-weight: bolder;
+        align-items:center;
+        justify-content: center;
+        text-align: center;
+        text-decoration: none;
+    }
+</style>
+<body>
+    <section class="box">
+    <section class="head">
+        <h1><marquee>Smart Crop Management system</marquee></h1>
+    </section>
+    <section class="body">
+        <a href="">View crop  details</a>    
+        <a href="">Show farmer list</a>    
+        <a href="">Show  data</a>    
+        <a href="">Show graph</a> 
+        <a href="">Show Districk wise data</a> 
+        <a href="">View Current Rate</a>
+    </section>
+    </section>
+</body>
+</html>
